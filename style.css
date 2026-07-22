@@ -332,3 +332,21 @@ margin-bottom:10px;
 font-size:18px;
 font-weight:600;
 }
+.contact {
+    background: #ffffff;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.contact h2 {
+    color: #0b2d5c !important;
+}
+
+.contact p,
+.contact a {
+    color: #333 !important;
+}
+
+.contact i {
+    color: #f4b400;
+}
