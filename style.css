@@ -285,3 +285,50 @@ max-width:600px;
 border-radius:12px;
 box-shadow:0 5px 15px rgba(0,0,0,.1);
 }
+
+/* Trust Section */
+
+.trust{
+background:#003366;
+padding:70px 20px;
+text-align:center;
+color:#fff;
+}
+
+.trust h2{
+font-size:36px;
+margin-bottom:40px;
+color:#FFD700;
+}
+
+.trust-container{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:25px;
+max-width:1200px;
+margin:auto;
+}
+
+.trust-box{
+background:#ffffff;
+color:#003366;
+padding:30px;
+border-radius:15px;
+box-shadow:0 10px 25px rgba(0,0,0,.2);
+transition:.3s;
+}
+
+.trust-box:hover{
+transform:translateY(-10px);
+}
+
+.trust-box h1{
+font-size:42px;
+color:#FFD700;
+margin-bottom:10px;
+}
+
+.trust-box p{
+font-size:18px;
+font-weight:600;
+}
